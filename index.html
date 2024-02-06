@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papi Kostick</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="body">
+        <div class="container">
+            <div class="content">
+                <h1>PAPI Kostick</h1>
+                <p>PAPI (Personality and Preference Inventory) Kostick merupakan personality assessment atau alat tes penilaian kepribadian
+                terkemuka yang digunakan oleh para profesional HR (Human Resource) dan manajer terkait untuk mengevaluasi perilaku dan
+                gaya kerja individu pada semua tingkatan.</p>
+            </div>
+            <div class="form">
+                <h1>Form Pendaftaran</h1>
+                <form action="php/pertanyaan.php" method="post">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="nama">Nama</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="nama">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="nama">Tanggal Lahir</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="date" id="nama">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="jenis_kelamin">Jenis Kelamin</label>
+                        </div>
+                        <div class="col-75">
+                            <select name="jenis_kelamin" id="jenis_kelamin">
+                                <option selected>Pilih Jenis Kelamin</option>
+                                <option value="Laki-Laki">Laki-Laki</option>
+                                <option value="Perempuan">Perempuan</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="pekerjaan">Pekerjaan</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="pekerjaan">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="alamat">Alamat</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="alamat">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="no_hp">No Hp</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="tel" id="no_hp">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="email" id="email">
+                        </div>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
